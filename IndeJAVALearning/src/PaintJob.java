@@ -1,8 +1,8 @@
 public class PaintJob {
     public static void main(String[] args) {
-        //System.out.println(getBucketCount(2.75, 3.25, 2.5, 1));
+        System.out.println(getBucketCount(2.75, 3.25, 2.5, 1));
 
-        //System.out.println(getBucketCount(7.25, 4.3, 2.35));
+        System.out.println(getBucketCount(7.25, 4.3, 2.35));
 
         System.out.println(getBucketCount(3.26, 0.75));
     }
