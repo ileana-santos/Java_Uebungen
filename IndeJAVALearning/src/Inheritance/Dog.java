@@ -1,6 +1,8 @@
-package Inheritance.src;
+package Inheritance;
 
-public class Dog extends Animal{
+import Inheritance.Animal;
+
+public class Dog extends Animal {
     private String earShape;
     private String tailShape;
     public Dog(){

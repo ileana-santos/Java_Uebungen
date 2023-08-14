@@ -1,4 +1,4 @@
-package Inheritance.src;
+package Inheritance;
 
 public class Animal {
     private String type;
