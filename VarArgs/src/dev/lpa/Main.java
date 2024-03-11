@@ -9,6 +9,15 @@ public class Main {
 
         System.out.println("_".repeat(20));
         printText("Hello");
+
+        System.out.println("_".repeat(20));
+        printText("Hello");
+
+        System.out.println("_".repeat(20));
+        printText("Hello");
+
+        String[] sArray = {"first", "second", "third", "fourth", "fifth"};
+        System.out.println(String.join(",", sArray));
     }
 
     private static void printText(String... textList){
