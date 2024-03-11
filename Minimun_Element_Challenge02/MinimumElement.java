@@ -6,10 +6,10 @@ public class MinimumElement {
         return scanner.nextInt();
     }
 
-    private static int[] readElements(int elementAmmount) {
+    private static int[] readElements(int el) {
         Scanner scanner = new Scanner(System.in);
-        int[] array = new int[elementAmmount];
-        for (int i = 0; i < elementAmmount; i++) {
+        int[] array = new int[el];
+        for (int i = 0; i < el; i++) {
             array[i] = scanner.nextInt();
         }
         return array;
